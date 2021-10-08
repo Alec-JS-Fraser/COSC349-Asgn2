@@ -25,3 +25,7 @@ and enter your database's password when prompted.
 When you have confirmed your MySQL database is running and your EC2 instance can connect to it, change the conn.php file in your EC2 instance to include the connection details. Be sure to change the db_host to your RDS endpoint, along with changing the username and password depending on how you set up your RDS instance.
 
 From here, you should be able to connect to your EC2 instance's public IP address, and everything *should* work like a charm.
+
+To access our webserver go to the address:
+
+	http://3.81.63.54/site.php
